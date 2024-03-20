@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+  <link rel="stylesheet" href="rockPaperScissors.css">
+  <script src="rockPaperScissors.js"></script>
+
+  <h1>Rock Paper Scissors</h1>
+  <div id="scoreboard">Player: 0 | Computer: 0</div>
+  <p>Choose your move:</p>
+  <button onclick="move('rock')" class="button-cool">Rock</button>
+  <button onclick="move('paper')" class="button-cool">Paper</button>
+  <button onclick="move('scissors')" class="button-cool">Scissors</button>
+  <p id="result"></p>
+
+  <button onclick="resetScoreboard()">Reset Scoreboard</button>
+
+</body>
+
+</html>
